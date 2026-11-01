@@ -365,7 +365,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
+   const db = getFirestore(app, "default");
 
 /* =========================================================
    📚 문제 데이터 (쉬운 것 → 어려운 것 순서)
